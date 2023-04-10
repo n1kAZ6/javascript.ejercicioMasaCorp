@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>JS ejercicios forms</title>
+<script src="script/pesoCorp.js"></script>
+</head>
+<body>
+<h1>JS Ejercicio calculo masa corporal</h1>
+<form>
+	<label for="altura">Altura: </label>
+	<input type="text" size="20" name="altura"/>
+	<br>
+	<label for="edad">Edad: </label>
+	<input type="text" size="20" name="edad"/>
+	<br>
+	<label for="sexo">Sexo: </label>
+	<input type="text" size="20" name="sexo"/>
+	<br>
+	<br>
+	<input type="button" size="50" name="guardarValor" value="Guardar valor" onclick="calcular(this.form)"/>
+	<br>
+	<br>
+	<label>Resultado peso corporal</label>
+	<br>
+	<input type="text" size="20" name="resultado"/>
+	<br>
+	<input type="reset" value="Resetear">	
+</form>
+</body>
+</html>
